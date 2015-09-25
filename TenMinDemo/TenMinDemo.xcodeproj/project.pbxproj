@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C51BB5C9DF00EF5B63 /* main.m */; };
-		8F49F7C91BB5C9DF00EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C81BB5C9DF00EF5B63 /* AppDelegate.m */; };
-		8F49F7CC1BB5C9DF00EF5B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7CB1BB5C9DF00EF5B63 /* ViewController.m */; };
-		8F49F7CF1BB5C9DF00EF5B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7CD1BB5C9DF00EF5B63 /* Main.storyboard */; };
 		8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */; };
 		8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */; };
 		8F49F7E01BB5C9DF00EF5B63 /* TenMinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */; };
+		8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */; };
+		8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */; };
+		8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */; };
+		8F49F81D1BB5CDB900EF5B63 /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7FF1BB5CDB900EF5B63 /* CYXFourViewController.m */; };
+		8F49F81E1BB5CDB900EF5B63 /* CYXFourViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F8001BB5CDB900EF5B63 /* CYXFourViewController.storyboard */; };
+		8F49F81F1BB5CDB900EF5B63 /* CYXPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8021BB5CDB900EF5B63 /* CYXPushViewController.m */; };
+		8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8051BB5CDB900EF5B63 /* CYXGroupItem.m */; };
+		8F49F8211BB5CDB900EF5B63 /* CYXPushitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8071BB5CDB900EF5B63 /* CYXPushitem.m */; };
+		8F49F8221BB5CDB900EF5B63 /* CYXSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8091BB5CDB900EF5B63 /* CYXSettingItem.m */; };
+		8F49F8231BB5CDB900EF5B63 /* CYXDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F80E1BB5CDB900EF5B63 /* CYXDragViewController.m */; };
+		8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */; };
+		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
+		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
+		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +41,38 @@
 		8F49F7C01BB5C9DF00EF5B63 /* TenMinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8F49F7C71BB5C9DF00EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8F49F7C81BB5C9DF00EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F49F7CA1BB5C9DF00EF5B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F49F7CB1BB5C9DF00EF5B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8F49F7CE1BB5C9DF00EF5B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8F49F7D31BB5C9DF00EF5B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8F49F7D91BB5C9DF00EF5B63 /* TenMinDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenMinDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7DE1BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7DF1BB5C9DF00EF5B63 /* TenMinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenMinDemoTests.m; sourceTree = "<group>"; };
+		8F49F7EC1BB5CDB900EF5B63 /* CYXOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXOneViewController.h; sourceTree = "<group>"; };
+		8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXOneViewController.m; sourceTree = "<group>"; };
+		8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTwoViewController.h; sourceTree = "<group>"; };
+		8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTwoViewController.m; sourceTree = "<group>"; };
+		8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXThreeViewController.h; sourceTree = "<group>"; };
+		8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXThreeViewController.m; sourceTree = "<group>"; };
+		8F49F7FE1BB5CDB900EF5B63 /* CYXFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXFourViewController.h; sourceTree = "<group>"; };
+		8F49F7FF1BB5CDB900EF5B63 /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
+		8F49F8001BB5CDB900EF5B63 /* CYXFourViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CYXFourViewController.storyboard; sourceTree = "<group>"; };
+		8F49F8011BB5CDB900EF5B63 /* CYXPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPushViewController.h; sourceTree = "<group>"; };
+		8F49F8021BB5CDB900EF5B63 /* CYXPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPushViewController.m; sourceTree = "<group>"; };
+		8F49F8041BB5CDB900EF5B63 /* CYXGroupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXGroupItem.h; sourceTree = "<group>"; };
+		8F49F8051BB5CDB900EF5B63 /* CYXGroupItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXGroupItem.m; sourceTree = "<group>"; };
+		8F49F8061BB5CDB900EF5B63 /* CYXPushitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPushitem.h; sourceTree = "<group>"; };
+		8F49F8071BB5CDB900EF5B63 /* CYXPushitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPushitem.m; sourceTree = "<group>"; };
+		8F49F8081BB5CDB900EF5B63 /* CYXSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXSettingItem.h; sourceTree = "<group>"; };
+		8F49F8091BB5CDB900EF5B63 /* CYXSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXSettingItem.m; sourceTree = "<group>"; };
+		8F49F80D1BB5CDB900EF5B63 /* CYXDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXDragViewController.h; sourceTree = "<group>"; };
+		8F49F80E1BB5CDB900EF5B63 /* CYXDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXDragViewController.m; sourceTree = "<group>"; };
+		8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNavigationController.h; sourceTree = "<group>"; };
+		8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNavigationController.m; sourceTree = "<group>"; };
+		8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTabBarController.h; sourceTree = "<group>"; };
+		8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTabBarController.m; sourceTree = "<group>"; };
+		8F49F8131BB5CDB900EF5B63 /* CYXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXViewController.h; sourceTree = "<group>"; };
+		8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXViewController.m; sourceTree = "<group>"; };
+		8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +114,7 @@
 		8F49F7C21BB5C9DF00EF5B63 /* TenMinDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8F49F7C71BB5C9DF00EF5B63 /* AppDelegate.h */,
-				8F49F7C81BB5C9DF00EF5B63 /* AppDelegate.m */,
-				8F49F7CA1BB5C9DF00EF5B63 /* ViewController.h */,
-				8F49F7CB1BB5C9DF00EF5B63 /* ViewController.m */,
-				8F49F7CD1BB5C9DF00EF5B63 /* Main.storyboard */,
+				8F49F7E91BB5CDB900EF5B63 /* classes */,
 				8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */,
 				8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */,
 				8F49F7C31BB5C9DF00EF5B63 /* Supporting Files */,
@@ -117,6 +146,208 @@
 				8F49F7DE1BB5C9DF00EF5B63 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F49F7E91BB5CDB900EF5B63 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7EA1BB5CDB900EF5B63 /* 1 */,
+				8F49F7F01BB5CDB900EF5B63 /* 2 */,
+				8F49F7F61BB5CDB900EF5B63 /* 3 */,
+				8F49F7FC1BB5CDB900EF5B63 /* 4 */,
+				8F49F80B1BB5CDB900EF5B63 /* Main(主要) */,
+				8F49F8171BB5CDB900EF5B63 /* other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		8F49F7EA1BB5CDB900EF5B63 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7EB1BB5CDB900EF5B63 /* Controller */,
+				8F49F7EE1BB5CDB900EF5B63 /* Model */,
+				8F49F7EF1BB5CDB900EF5B63 /* View */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		8F49F7EB1BB5CDB900EF5B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7EC1BB5CDB900EF5B63 /* CYXOneViewController.h */,
+				8F49F7ED1BB5CDB900EF5B63 /* CYXOneViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F49F7EE1BB5CDB900EF5B63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F49F7EF1BB5CDB900EF5B63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F49F7F01BB5CDB900EF5B63 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7F11BB5CDB900EF5B63 /* Controller */,
+				8F49F7F41BB5CDB900EF5B63 /* Model */,
+				8F49F7F51BB5CDB900EF5B63 /* View */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		8F49F7F11BB5CDB900EF5B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */,
+				8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F49F7F41BB5CDB900EF5B63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F49F7F51BB5CDB900EF5B63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F49F7F61BB5CDB900EF5B63 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7F71BB5CDB900EF5B63 /* Controller */,
+				8F49F7FA1BB5CDB900EF5B63 /* Model */,
+				8F49F7FB1BB5CDB900EF5B63 /* View */,
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		8F49F7F71BB5CDB900EF5B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */,
+				8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F49F7FA1BB5CDB900EF5B63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F49F7FB1BB5CDB900EF5B63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F49F7FC1BB5CDB900EF5B63 /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7FD1BB5CDB900EF5B63 /* Controller */,
+				8F49F8031BB5CDB900EF5B63 /* Model */,
+				8F49F80A1BB5CDB900EF5B63 /* View */,
+			);
+			path = 4;
+			sourceTree = "<group>";
+		};
+		8F49F7FD1BB5CDB900EF5B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F7FE1BB5CDB900EF5B63 /* CYXFourViewController.h */,
+				8F49F7FF1BB5CDB900EF5B63 /* CYXFourViewController.m */,
+				8F49F8001BB5CDB900EF5B63 /* CYXFourViewController.storyboard */,
+				8F49F8011BB5CDB900EF5B63 /* CYXPushViewController.h */,
+				8F49F8021BB5CDB900EF5B63 /* CYXPushViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F49F8031BB5CDB900EF5B63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F8041BB5CDB900EF5B63 /* CYXGroupItem.h */,
+				8F49F8051BB5CDB900EF5B63 /* CYXGroupItem.m */,
+				8F49F8061BB5CDB900EF5B63 /* CYXPushitem.h */,
+				8F49F8071BB5CDB900EF5B63 /* CYXPushitem.m */,
+				8F49F8081BB5CDB900EF5B63 /* CYXSettingItem.h */,
+				8F49F8091BB5CDB900EF5B63 /* CYXSettingItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F49F80A1BB5CDB900EF5B63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F49F80B1BB5CDB900EF5B63 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F80C1BB5CDB900EF5B63 /* Controller */,
+				8F49F8151BB5CDB900EF5B63 /* Model */,
+				8F49F8161BB5CDB900EF5B63 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		8F49F80C1BB5CDB900EF5B63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F80D1BB5CDB900EF5B63 /* CYXDragViewController.h */,
+				8F49F80E1BB5CDB900EF5B63 /* CYXDragViewController.m */,
+				8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */,
+				8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */,
+				8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */,
+				8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */,
+				8F49F8131BB5CDB900EF5B63 /* CYXViewController.h */,
+				8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F49F8151BB5CDB900EF5B63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F49F8161BB5CDB900EF5B63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F49F8171BB5CDB900EF5B63 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
+				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49F7CF1BB5C9DF00EF5B63 /* Main.storyboard in Resources */,
+				8F49F81E1BB5CDB900EF5B63 /* CYXFourViewController.storyboard in Resources */,
 				8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */,
 				8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +450,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F49F7CC1BB5C9DF00EF5B63 /* ViewController.m in Sources */,
-				8F49F7C91BB5C9DF00EF5B63 /* AppDelegate.m in Sources */,
+				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
+				8F49F81D1BB5CDB900EF5B63 /* CYXFourViewController.m in Sources */,
+				8F49F8231BB5CDB900EF5B63 /* CYXDragViewController.m in Sources */,
+				8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */,
+				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
+				8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */,
+				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
+				8F49F8211BB5CDB900EF5B63 /* CYXPushitem.m in Sources */,
+				8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */,
+				8F49F81F1BB5CDB900EF5B63 /* CYXPushViewController.m in Sources */,
+				8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */,
+				8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */,
 				8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */,
+				8F49F8221BB5CDB900EF5B63 /* CYXSettingItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +486,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8F49F7CD1BB5C9DF00EF5B63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F49F7CE1BB5C9DF00EF5B63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +650,7 @@
 				8F49F7E51BB5C9DF00EF5B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F49F7E61BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "TenMinDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +659,7 @@
 				8F49F7E81BB5C9DF00EF5B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

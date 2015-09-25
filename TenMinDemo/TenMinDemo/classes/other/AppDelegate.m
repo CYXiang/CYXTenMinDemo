@@ -1,12 +1,14 @@
 //
 //  AppDelegate.m
-//  TenMinDemo
+//  01-彩票
 //
-//  Created by Macx on 15/9/26.
+//  Created by Macx on 15/9/4.
 //  Copyright (c) 2015年 CYX. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "CYXViewController.h"
+#import "CYXTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 1.创建窗口
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.设置窗口的根控制器
+    CYXViewController *dragVC = [[CYXViewController alloc]init];
+    self.window.rootViewController = dragVC;
+    
+//    CYXTabBarController *dragVC = [[CYXTabBarController alloc]init];
+//    self.window.rootViewController = dragVC;
+    
+    // 3.显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
