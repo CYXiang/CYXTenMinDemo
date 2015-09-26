@@ -22,11 +22,11 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.设置窗口的根控制器
-    CYXViewController *dragVC = [[CYXViewController alloc]init];
-    self.window.rootViewController = dragVC;
-    
-//    CYXTabBarController *dragVC = [[CYXTabBarController alloc]init];
+//    CYXViewController *dragVC = [[CYXViewController alloc]init];
 //    self.window.rootViewController = dragVC;
+    
+    CYXTabBarController *dragVC = [[CYXTabBarController alloc]init];
+    self.window.rootViewController = dragVC;
     
     // 3.显示窗口
     [self.window makeKeyAndVisible];
