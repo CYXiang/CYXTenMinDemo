@@ -1,6 +1,6 @@
 //
 //  CYXViewController.m
-//  01-彩票
+//   
 //
 //  Created by Macx on 15/9/24.
 //  Copyright (c) 2015年 CYX. All rights reserved.
@@ -22,9 +22,7 @@
     //
     CYXTabBarController *tabBarVc = [[CYXTabBarController alloc] init];
     
-    tabBarVc.view.frame = self.mainView.bounds;
-    
-    [self.mainView addSubview:tabBarVc.view];
+
     
     // 添加子控制器
     [self addChildViewController:tabBarVc];
