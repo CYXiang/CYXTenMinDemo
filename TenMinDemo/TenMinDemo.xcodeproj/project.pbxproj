@@ -20,7 +20,6 @@
 		8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8051BB5CDB900EF5B63 /* CYXGroupItem.m */; };
 		8F49F8211BB5CDB900EF5B63 /* CYXPushitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8071BB5CDB900EF5B63 /* CYXPushitem.m */; };
 		8F49F8221BB5CDB900EF5B63 /* CYXSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8091BB5CDB900EF5B63 /* CYXSettingItem.m */; };
-		8F49F8231BB5CDB900EF5B63 /* CYXDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F80E1BB5CDB900EF5B63 /* CYXDragViewController.m */; };
 		8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */; };
 		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
 		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
@@ -63,8 +62,6 @@
 		8F49F8071BB5CDB900EF5B63 /* CYXPushitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPushitem.m; sourceTree = "<group>"; };
 		8F49F8081BB5CDB900EF5B63 /* CYXSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXSettingItem.h; sourceTree = "<group>"; };
 		8F49F8091BB5CDB900EF5B63 /* CYXSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXSettingItem.m; sourceTree = "<group>"; };
-		8F49F80D1BB5CDB900EF5B63 /* CYXDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXDragViewController.h; sourceTree = "<group>"; };
-		8F49F80E1BB5CDB900EF5B63 /* CYXDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXDragViewController.m; sourceTree = "<group>"; };
 		8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNavigationController.h; sourceTree = "<group>"; };
 		8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNavigationController.m; sourceTree = "<group>"; };
 		8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTabBarController.h; sourceTree = "<group>"; };
@@ -315,8 +312,6 @@
 		8F49F80C1BB5CDB900EF5B63 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8F49F80D1BB5CDB900EF5B63 /* CYXDragViewController.h */,
-				8F49F80E1BB5CDB900EF5B63 /* CYXDragViewController.m */,
 				8F49F80F1BB5CDB900EF5B63 /* CYXNavigationController.h */,
 				8F49F8101BB5CDB900EF5B63 /* CYXNavigationController.m */,
 				8F49F8111BB5CDB900EF5B63 /* CYXTabBarController.h */,
@@ -452,7 +447,6 @@
 			files = (
 				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
 				8F49F81D1BB5CDB900EF5B63 /* CYXFourViewController.m in Sources */,
-				8F49F8231BB5CDB900EF5B63 /* CYXDragViewController.m in Sources */,
 				8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */,
 				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
 				8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */,
