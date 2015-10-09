@@ -43,10 +43,10 @@
     [self setUpOneChildViewController:threeVC image:[UIImage imageNamed:@"qw"] title:@"博文"];
     
     // 4.添加第4个控制器
-//    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"CYXFourViewController" bundle:nil];
-//    
-//    CYXFourViewController *fourVC = [storyBoard instantiateInitialViewController];
-    CYXFourViewController *fourVC = [[CYXFourViewController alloc]init];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"CYXFourViewController" bundle:nil];
+    
+    CYXFourViewController *fourVC = [storyBoard instantiateInitialViewController];
+//    CYXFourViewController *fourVC = [[CYXFourViewController alloc]init];
 
     [self setUpOneChildViewController:fourVC image:[UIImage imageNamed:@"user"] title:@"设置"];
 }

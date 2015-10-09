@@ -7,6 +7,8 @@
 //
 
 #import "CYXOneViewController.h"
+#import "CYXCell.h"
+#import <AFNetworking.h>
 
 @interface CYXOneViewController ()
 
@@ -16,22 +18,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.tableView.rowHeight = 90;
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXCell class]) bundle:nil] forCellReuseIdentifier:@"cell"];
+    
+    [self loadData];
+    
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadData{
+    
+    NSString *url = @"http://apis.haoservice.com/lifeservice/cook/query?";
+    
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"menu"] = @"西红柿";
+    params[@"pn"] = @"3";
+    params[@"rn"] = @"10";
+    params[@"key"] = @"2ba215a3f83b4b898d0f6fdca4e16c7c";
+
+    
+    
+    [[AFHTTPSessionManager manager] GET:url parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        NSLog(@"成功");
+        NSLog(@"%@",responseObject);
+        [responseObject writeToFile:@"/Users/Macx/Desktop/杂/tags.plist" atomically:YES];
+        
+       
+    } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
+        NSLog(@"失败 %@",error);
+    }];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 20;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    CYXCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    
+    return cell;
+}
 
 @end

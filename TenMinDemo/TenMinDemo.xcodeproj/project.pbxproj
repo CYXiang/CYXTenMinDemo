@@ -24,6 +24,9 @@
 		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
 		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
 		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
+		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; settings = {ASSET_TAGS = (); }; };
+		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; settings = {ASSET_TAGS = (); }; };
+		92263B5DA4766C17E2D14A3B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9543E8849F85F3B1D0D784 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9543E8849F85F3B1D0D784 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8F49F7C01BB5C9DF00EF5B63 /* TenMinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +75,10 @@
 		8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXViewController.m; sourceTree = "<group>"; };
 		8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FAD0AC41BC8337B00FD35AD /* CYXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCell.h; sourceTree = "<group>"; };
+		8FAD0AC51BC8337B00FD35AD /* CYXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCell.m; sourceTree = "<group>"; };
+		8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXCell.xib; sourceTree = "<group>"; };
+		9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92263B5DA4766C17E2D14A3B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +100,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084A460942A14A96B363367F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E9543E8849F85F3B1D0D784 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27BB0BD28AA2319464F24C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */,
+				1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F49F7B71BB5C9DF00EF5B63 = {
 			isa = PBXGroup;
 			children = (
 				8F49F7C21BB5C9DF00EF5B63 /* TenMinDemo */,
 				8F49F7DC1BB5C9DF00EF5B63 /* TenMinDemoTests */,
 				8F49F7C11BB5C9DF00EF5B63 /* Products */,
+				27BB0BD28AA2319464F24C5A /* Pods */,
+				084A460942A14A96B363367F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +216,9 @@
 		8F49F7EF1BB5CDB900EF5B63 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8FAD0AC41BC8337B00FD35AD /* CYXCell.h */,
+				8FAD0AC51BC8337B00FD35AD /* CYXCell.m */,
+				8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -352,9 +384,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F49F7E31BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "TenMinDemo" */;
 			buildPhases = (
+				336D9C4FB45AFC72300D9999 /* Check Pods Manifest.lock */,
 				8F49F7BC1BB5C9DF00EF5B63 /* Sources */,
 				8F49F7BD1BB5C9DF00EF5B63 /* Frameworks */,
 				8F49F7BE1BB5C9DF00EF5B63 /* Resources */,
+				8A4C3B9CB9DD71CB845381C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -425,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */,
 				8F49F81E1BB5CDB900EF5B63 /* CYXFourViewController.storyboard in Resources */,
 				8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */,
 				8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */,
@@ -440,6 +475,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		336D9C4FB45AFC72300D9999 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4C3B9CB9DD71CB845381C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F49F7BC1BB5C9DF00EF5B63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -453,6 +521,7 @@
 				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
 				8F49F8211BB5CDB900EF5B63 /* CYXPushitem.m in Sources */,
 				8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */,
+				8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */,
 				8F49F81F1BB5CDB900EF5B63 /* CYXPushViewController.m in Sources */,
 				8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */,
 				8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */,
@@ -573,9 +642,11 @@
 		};
 		8F49F7E41BB5C9DF00EF5B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TenMinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -583,9 +654,11 @@
 		};
 		8F49F7E51BB5C9DF00EF5B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TenMinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
