@@ -26,6 +26,7 @@
 		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
 		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; settings = {ASSET_TAGS = (); }; };
 		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33DA1BC9401D0085F520 /* CYXMenu.m */; settings = {ASSET_TAGS = (); }; };
 		92263B5DA4766C17E2D14A3B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9543E8849F85F3B1D0D784 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		8FAD0AC41BC8337B00FD35AD /* CYXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCell.h; sourceTree = "<group>"; };
 		8FAD0AC51BC8337B00FD35AD /* CYXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCell.m; sourceTree = "<group>"; };
 		8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXCell.xib; sourceTree = "<group>"; };
+		8FFA33D91BC9401D0085F520 /* CYXMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMenu.h; sourceTree = "<group>"; };
+		8FFA33DA1BC9401D0085F520 /* CYXMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMenu.m; sourceTree = "<group>"; };
 		9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,6 +212,8 @@
 		8F49F7EE1BB5CDB900EF5B63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8FFA33D91BC9401D0085F520 /* CYXMenu.h */,
+				8FFA33DA1BC9401D0085F520 /* CYXMenu.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -524,6 +529,7 @@
 				8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */,
 				8F49F81F1BB5CDB900EF5B63 /* CYXPushViewController.m in Sources */,
 				8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */,
+				8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */,
 				8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */,
 				8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */,
 				8F49F8221BB5CDB900EF5B63 /* CYXSettingItem.m in Sources */,

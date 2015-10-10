@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class CYXMenu;
+
 @interface CYXCell : UITableViewCell
+
+/** 菜单模型 */
+@property (strong, nonatomic) CYXMenu * menu;
 
 @end

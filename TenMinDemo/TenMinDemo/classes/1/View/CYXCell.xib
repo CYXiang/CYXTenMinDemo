@@ -23,18 +23,39 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bK7-XM-ZL8">
                         <rect key="frame" x="150" y="42" width="42" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="材料：" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hxf-ps-Y0S">
+                        <rect key="frame" x="150" y="96" width="39" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6G8-bo-hhv">
+                        <rect key="frame" x="188" y="95" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="Hxf-ps-Y0S" firstAttribute="leading" secondItem="bK7-XM-ZL8" secondAttribute="leading" id="7jb-qa-8Jn"/>
                     <constraint firstItem="gu8-aW-hAc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Y23-qw-r3c"/>
+                    <constraint firstItem="6G8-bo-hhv" firstAttribute="leading" secondItem="Hxf-ps-Y0S" secondAttribute="trailing" constant="-1" id="d9b-Am-ctR"/>
+                    <constraint firstItem="Hxf-ps-Y0S" firstAttribute="bottom" secondItem="gu8-aW-hAc" secondAttribute="bottom" id="e0f-5F-SPQ"/>
                     <constraint firstItem="gu8-aW-hAc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="fjb-9N-qkP"/>
                     <constraint firstItem="bK7-XM-ZL8" firstAttribute="top" secondItem="gu8-aW-hAc" secondAttribute="top" id="k4n-BO-ZK0"/>
                     <constraint firstItem="bK7-XM-ZL8" firstAttribute="leading" secondItem="gu8-aW-hAc" secondAttribute="trailing" constant="13" id="sXE-vs-2tI"/>
+                    <constraint firstItem="6G8-bo-hhv" firstAttribute="bottom" secondItem="gu8-aW-hAc" secondAttribute="bottom" id="tqH-Hp-HZ0"/>
                 </constraints>
             </tableViewCellContentView>
-            <point key="canvasLocation" x="249" y="314.5"/>
+            <connections>
+                <outlet property="albumsImageView" destination="gu8-aW-hAc" id="y4i-og-684"/>
+                <outlet property="ingredientsLabel" destination="6G8-bo-hhv" id="MrJ-QG-WJc"/>
+                <outlet property="titleLable" destination="bK7-XM-ZL8" id="oXM-Un-qGE"/>
+            </connections>
+            <point key="canvasLocation" x="177" y="296.5"/>
         </tableViewCell>
     </objects>
 </document>
