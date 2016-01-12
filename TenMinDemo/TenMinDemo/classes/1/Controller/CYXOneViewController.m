@@ -45,7 +45,7 @@ static NSString * const CYXCellID = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     [self setupTable];
         
 }
@@ -62,6 +62,7 @@ static NSString * const CYXCellID = @"cell";
 
     // 头部刷新控件
     self.tableView.header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadData)];
+    [self.tableView.header beginRefreshing];
     
     // 尾部刷新控件
     self.tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];

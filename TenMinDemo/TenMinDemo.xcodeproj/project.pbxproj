@@ -24,9 +24,9 @@
 		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
 		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
 		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
-		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; settings = {ASSET_TAGS = (); }; };
-		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; settings = {ASSET_TAGS = (); }; };
-		8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33DA1BC9401D0085F520 /* CYXMenu.m */; settings = {ASSET_TAGS = (); }; };
+		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; };
+		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; };
+		8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33DA1BC9401D0085F520 /* CYXMenu.m */; };
 		92263B5DA4766C17E2D14A3B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9543E8849F85F3B1D0D784 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -394,6 +394,7 @@
 				8F49F7BD1BB5C9DF00EF5B63 /* Frameworks */,
 				8F49F7BE1BB5C9DF00EF5B63 /* Resources */,
 				8A4C3B9CB9DD71CB845381C2 /* Copy Pods Resources */,
+				0ABB975D84B50CFAA0C21D65 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -482,6 +483,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0ABB975D84B50CFAA0C21D65 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		336D9C4FB45AFC72300D9999 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

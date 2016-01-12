@@ -136,6 +136,13 @@ static const char MJCachedPropertiesKey = '\0';
             // 2.遍历每一个成员变量
             for (unsigned int i = 0; i<outCount; i++) {
                 MJProperty *property = [MJProperty cachedPropertyWithProperty:properties[i]];
+                // 过滤掉系统自动添加的元素
+                if ([property.name isEqualToString:@"hash"]
+                    || [property.name isEqualToString:@"superclass"]
+                    || [property.name isEqualToString:@"description"]
+                    || [property.name isEqualToString:@"debugDescription"]) {
+                    continue;
+                }
                 property.srcClass = c;
                 [property setOriginKey:[self propertyKey:property.name] forClass:self];
                 [property setObjectClassInArray:[self propertyObjectClassInArray:property.name] forClass:self];
@@ -167,7 +174,7 @@ static const char MJCachedPropertiesKey = '\0';
     }
     
     // 查看静态设置
-    __block id newValue = nil;
+    __block id newValue = oldValue;
     [self enumerateAllClasses:^(__unsafe_unretained Class c, BOOL *stop) {
         MJNewValueFromOldValue block = objc_getAssociatedObject(c, &MJNewValueFromOldValueKey);
         if (block) {

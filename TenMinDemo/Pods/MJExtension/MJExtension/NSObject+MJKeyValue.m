@@ -45,6 +45,9 @@ static NSNumberFormatter *numberFormatter_;
 + (void)load
 {
     numberFormatter_ = [[NSNumberFormatter alloc] init];
+    
+    // 默认设置
+    [self referenceReplacedKeyWhenCreatingKeyValues:YES];
 }
 
 #pragma mark - --公共方法--
@@ -97,8 +100,7 @@ static NSNumberFormatter *numberFormatter_;
             }
             
             // 值的过滤
-            id newValue = [aClass getNewValueFromObject:self oldValue:value property:property];
-            if (newValue) value = newValue;
+            value = [aClass getNewValueFromObject:self oldValue:value property:property];
             
             // 如果没有值，就直接返回
             if (!value || value == [NSNull null]) return;
@@ -404,11 +406,6 @@ static NSNumberFormatter *numberFormatter_;
             NSLog(@"%@", exception);
         }
     }];
-    
-    // 去除系统自动增加的元素
-    if ([keyValues isKindOfClass:[NSMutableDictionary class]]) {
-        [keyValues removeObjectsForKeys:@[@"superclass", @"debugDescription", @"description", @"hash"]];
-    }
     
     // 转换完毕
     if ([self respondsToSelector:@selector(objectDidFinishConvertingToKeyValues)]) {
