@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYXTwoViewController : UIViewController
+@interface CYXTwoViewController : UITableViewController
+
+
 
 @end

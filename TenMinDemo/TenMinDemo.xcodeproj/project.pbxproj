@@ -24,6 +24,17 @@
 		8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8121BB5CDB900EF5B63 /* CYXTabBarController.m */; };
 		8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */; };
 		8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */; };
+		8F9F28301C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F282C1C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.m */; };
+		8F9F28311C8F3BBE00A6BA83 /* CYXNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F282E1C8F3BBE00A6BA83 /* CYXNormalCell.m */; };
+		8F9F28321C8F3BBE00A6BA83 /* CYXNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9F282F1C8F3BBE00A6BA83 /* CYXNormalCell.xib */; };
+		8F9F28381C8F3BCF00A6BA83 /* CYXNewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F28341C8F3BCF00A6BA83 /* CYXNewfeatureViewController.m */; };
+		8F9F28391C8F3BCF00A6BA83 /* CYXNewfeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F28361C8F3BCF00A6BA83 /* CYXNewfeatureCell.m */; };
+		8F9F283A1C8F3BCF00A6BA83 /* CYXNewfeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9F28371C8F3BCF00A6BA83 /* CYXNewfeatureCell.xib */; };
+		8F9F283F1C8F3BDB00A6BA83 /* CYXWaterflowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F283C1C8F3BDB00A6BA83 /* CYXWaterflowController.m */; };
+		8F9F28401C8F3BDB00A6BA83 /* CYXWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F283E1C8F3BDB00A6BA83 /* CYXWaterFlowLayout.m */; };
+		8F9F28471C8F3BED00A6BA83 /* CYXLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F28421C8F3BED00A6BA83 /* CYXLayoutViewController.m */; };
+		8F9F28481C8F3BED00A6BA83 /* CYXPhotoViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F28441C8F3BED00A6BA83 /* CYXPhotoViewLayout.m */; };
+		8F9F28491C8F3BED00A6BA83 /* CYXPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F28461C8F3BED00A6BA83 /* CYXPhotoCell.m */; };
 		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; };
 		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; };
 		8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33DA1BC9401D0085F520 /* CYXMenu.m */; };
@@ -76,6 +87,26 @@
 		8F49F8141BB5CDB900EF5B63 /* CYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXViewController.m; sourceTree = "<group>"; };
 		8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F9F282B1C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNormalCollectionViewController.h; sourceTree = "<group>"; };
+		8F9F282C1C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNormalCollectionViewController.m; sourceTree = "<group>"; };
+		8F9F282D1C8F3BBE00A6BA83 /* CYXNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNormalCell.h; sourceTree = "<group>"; };
+		8F9F282E1C8F3BBE00A6BA83 /* CYXNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNormalCell.m; sourceTree = "<group>"; };
+		8F9F282F1C8F3BBE00A6BA83 /* CYXNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXNormalCell.xib; sourceTree = "<group>"; };
+		8F9F28331C8F3BCF00A6BA83 /* CYXNewfeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNewfeatureViewController.h; sourceTree = "<group>"; };
+		8F9F28341C8F3BCF00A6BA83 /* CYXNewfeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNewfeatureViewController.m; sourceTree = "<group>"; };
+		8F9F28351C8F3BCF00A6BA83 /* CYXNewfeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNewfeatureCell.h; sourceTree = "<group>"; };
+		8F9F28361C8F3BCF00A6BA83 /* CYXNewfeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNewfeatureCell.m; sourceTree = "<group>"; };
+		8F9F28371C8F3BCF00A6BA83 /* CYXNewfeatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXNewfeatureCell.xib; sourceTree = "<group>"; };
+		8F9F283B1C8F3BDB00A6BA83 /* CYXWaterflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXWaterflowController.h; sourceTree = "<group>"; };
+		8F9F283C1C8F3BDB00A6BA83 /* CYXWaterflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXWaterflowController.m; sourceTree = "<group>"; };
+		8F9F283D1C8F3BDB00A6BA83 /* CYXWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXWaterFlowLayout.h; sourceTree = "<group>"; };
+		8F9F283E1C8F3BDB00A6BA83 /* CYXWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXWaterFlowLayout.m; sourceTree = "<group>"; };
+		8F9F28411C8F3BED00A6BA83 /* CYXLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXLayoutViewController.h; sourceTree = "<group>"; };
+		8F9F28421C8F3BED00A6BA83 /* CYXLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXLayoutViewController.m; sourceTree = "<group>"; };
+		8F9F28431C8F3BED00A6BA83 /* CYXPhotoViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPhotoViewLayout.h; sourceTree = "<group>"; };
+		8F9F28441C8F3BED00A6BA83 /* CYXPhotoViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPhotoViewLayout.m; sourceTree = "<group>"; };
+		8F9F28451C8F3BED00A6BA83 /* CYXPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPhotoCell.h; sourceTree = "<group>"; };
+		8F9F28461C8F3BED00A6BA83 /* CYXPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPhotoCell.m; sourceTree = "<group>"; };
 		8FAD0AC41BC8337B00FD35AD /* CYXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXCell.h; sourceTree = "<group>"; };
 		8FAD0AC51BC8337B00FD35AD /* CYXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXCell.m; sourceTree = "<group>"; };
 		8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXCell.xib; sourceTree = "<group>"; };
@@ -241,6 +272,7 @@
 		8F49F7F11BB5CDB900EF5B63 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8F9F28261C8F3A3100A6BA83 /* CYXCollectionViewTest */,
 				8F49F7F21BB5CDB900EF5B63 /* CYXTwoViewController.h */,
 				8F49F7F31BB5CDB900EF5B63 /* CYXTwoViewController.m */,
 			);
@@ -382,6 +414,65 @@
 			path = other;
 			sourceTree = "<group>";
 		};
+		8F9F28261C8F3A3100A6BA83 /* CYXCollectionViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				8F9F28271C8F3B3800A6BA83 /* 流水布局普通使用 */,
+				8F9F28281C8F3B5E00A6BA83 /* 新手引导页面制作 */,
+				8F9F282A1C8F3B7D00A6BA83 /* 瀑布流布局 */,
+				8F9F28291C8F3B7200A6BA83 /* 自定义布局 */,
+			);
+			name = CYXCollectionViewTest;
+			sourceTree = "<group>";
+		};
+		8F9F28271C8F3B3800A6BA83 /* 流水布局普通使用 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9F282B1C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.h */,
+				8F9F282C1C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.m */,
+				8F9F282D1C8F3BBE00A6BA83 /* CYXNormalCell.h */,
+				8F9F282E1C8F3BBE00A6BA83 /* CYXNormalCell.m */,
+				8F9F282F1C8F3BBE00A6BA83 /* CYXNormalCell.xib */,
+			);
+			name = "流水布局普通使用";
+			sourceTree = "<group>";
+		};
+		8F9F28281C8F3B5E00A6BA83 /* 新手引导页面制作 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9F28331C8F3BCF00A6BA83 /* CYXNewfeatureViewController.h */,
+				8F9F28341C8F3BCF00A6BA83 /* CYXNewfeatureViewController.m */,
+				8F9F28351C8F3BCF00A6BA83 /* CYXNewfeatureCell.h */,
+				8F9F28361C8F3BCF00A6BA83 /* CYXNewfeatureCell.m */,
+				8F9F28371C8F3BCF00A6BA83 /* CYXNewfeatureCell.xib */,
+			);
+			name = "新手引导页面制作";
+			sourceTree = "<group>";
+		};
+		8F9F28291C8F3B7200A6BA83 /* 自定义布局 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9F28411C8F3BED00A6BA83 /* CYXLayoutViewController.h */,
+				8F9F28421C8F3BED00A6BA83 /* CYXLayoutViewController.m */,
+				8F9F28431C8F3BED00A6BA83 /* CYXPhotoViewLayout.h */,
+				8F9F28441C8F3BED00A6BA83 /* CYXPhotoViewLayout.m */,
+				8F9F28451C8F3BED00A6BA83 /* CYXPhotoCell.h */,
+				8F9F28461C8F3BED00A6BA83 /* CYXPhotoCell.m */,
+			);
+			name = "自定义布局";
+			sourceTree = "<group>";
+		};
+		8F9F282A1C8F3B7D00A6BA83 /* 瀑布流布局 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9F283B1C8F3BDB00A6BA83 /* CYXWaterflowController.h */,
+				8F9F283C1C8F3BDB00A6BA83 /* CYXWaterflowController.m */,
+				8F9F283D1C8F3BDB00A6BA83 /* CYXWaterFlowLayout.h */,
+				8F9F283E1C8F3BDB00A6BA83 /* CYXWaterFlowLayout.m */,
+			);
+			name = "瀑布流布局";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -466,7 +557,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9F28321C8F3BBE00A6BA83 /* CYXNormalCell.xib in Resources */,
 				8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */,
+				8F9F283A1C8F3BCF00A6BA83 /* CYXNewfeatureCell.xib in Resources */,
 				8F49F81E1BB5CDB900EF5B63 /* CYXFourViewController.storyboard in Resources */,
 				8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */,
 				8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */,
@@ -536,20 +629,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
+				8F9F28481C8F3BED00A6BA83 /* CYXPhotoViewLayout.m in Sources */,
 				8F49F81D1BB5CDB900EF5B63 /* CYXFourViewController.m in Sources */,
+				8F9F28391C8F3BCF00A6BA83 /* CYXNewfeatureCell.m in Sources */,
 				8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */,
 				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
 				8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */,
+				8F9F283F1C8F3BDB00A6BA83 /* CYXWaterflowController.m in Sources */,
 				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
+				8F9F28301C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.m in Sources */,
+				8F9F28401C8F3BDB00A6BA83 /* CYXWaterFlowLayout.m in Sources */,
+				8F9F28381C8F3BCF00A6BA83 /* CYXNewfeatureViewController.m in Sources */,
+				8F9F28471C8F3BED00A6BA83 /* CYXLayoutViewController.m in Sources */,
 				8F49F8211BB5CDB900EF5B63 /* CYXPushitem.m in Sources */,
 				8F49F81A1BB5CDB900EF5B63 /* CYXOneViewController.m in Sources */,
 				8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */,
 				8F49F81F1BB5CDB900EF5B63 /* CYXPushViewController.m in Sources */,
 				8F49F8261BB5CDB900EF5B63 /* CYXViewController.m in Sources */,
 				8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */,
+				8F9F28311C8F3BBE00A6BA83 /* CYXNormalCell.m in Sources */,
 				8F49F81C1BB5CDB900EF5B63 /* CYXThreeViewController.m in Sources */,
 				8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */,
 				8F49F8221BB5CDB900EF5B63 /* CYXSettingItem.m in Sources */,
+				8F9F28491C8F3BED00A6BA83 /* CYXPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
