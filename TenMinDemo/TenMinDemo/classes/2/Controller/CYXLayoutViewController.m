@@ -23,6 +23,8 @@ static NSString * const ID = @"cell";
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     CYXPhotoViewLayout *layout = [[CYXPhotoViewLayout alloc]init];
+    
+    
 //    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
 //    self.automaticallyAdjustsScrollViewInsets = NO;
     layout.itemSize = CGSizeMake(230, 350);
