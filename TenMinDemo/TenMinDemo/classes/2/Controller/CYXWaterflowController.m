@@ -13,6 +13,10 @@
 
 @end
 
+#define CYXColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define CYXRandomColor CYXColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+
 @implementation CYXWaterflowController
 
 static NSString * const CYXShopId = @"shop";
@@ -49,7 +53,7 @@ static NSString * const CYXShopId = @"shop";
 {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CYXShopId forIndexPath:indexPath];
     
-    cell.backgroundColor = [UIColor blueColor];
+    cell.backgroundColor = CYXRandomColor;
     
     NSInteger tag = 10;
     UILabel *label = (UILabel *)[cell.contentView viewWithTag:tag];
