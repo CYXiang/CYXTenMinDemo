@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  TenMinDemo
+//
+//  Created by apple开发 on 16/3/10.
+//  Copyright © 2016年 CYX. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  随机色
+ */
+#define CYXColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define CYXRandomColor CYXColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+
+
+#endif /* PrefixHeader_pch */

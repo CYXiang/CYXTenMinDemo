@@ -89,7 +89,7 @@ static const UIEdgeInsets XMGDefaultEdgeInsets = {10, 10, 10, 10};
     
     // 设置布局属性的frame
     CGFloat w = (collectionViewW - XMGDefaultEdgeInsets.left - XMGDefaultEdgeInsets.right - (XMGDefaultColumnCount - 1) * XMGDefaultColumnMargin) / XMGDefaultColumnCount;
-    CGFloat h = 50 + arc4random_uniform(100);
+    CGFloat h = 50 + arc4random_uniform(200);
     
     // 找出高度最短的那一列
     //    __block NSInteger destColumn = 0;

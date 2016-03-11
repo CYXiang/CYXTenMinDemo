@@ -35,7 +35,6 @@ static NSString * const ID = @"cell";
     [super viewDidLoad];
     self.title = @"CYXDemo";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:ID];
-    
 }
 
 - (void)didReceiveMemoryWarning {

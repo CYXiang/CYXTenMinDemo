@@ -11,6 +11,7 @@
 #import "CYXTwoViewController.h"
 #import "CYXThreeViewController.h"
 #import "CYXFourViewController.h"
+#import "CYXNavigationController.h"
 
 @interface CYXTabBarController ()
 
@@ -22,7 +23,6 @@
     [super viewDidLoad];
 
     [self setUpAllChildViewController];
-
 
 }
 
@@ -57,11 +57,10 @@
  */
 - (void)setUpOneChildViewController:(UIViewController *)viewController image:(UIImage *)image title:(NSString *)title{
     
-    UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:viewController];
+    CYXNavigationController *navC = [[CYXNavigationController alloc]initWithRootViewController:viewController];
     navC.title = title;
     navC.tabBarItem.image = image;
     [navC.navigationBar setBackgroundImage:[UIImage imageNamed:@"commentary_num_bg"] forBarMetrics:UIBarMetricsDefault];
-    
     viewController.navigationItem.title = title;
     
     [self addChildViewController:navC];

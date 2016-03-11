@@ -54,6 +54,7 @@
 /* Begin PBXFileReference section */
 		0E9543E8849F85F3B1D0D784 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		490827701C9124AB00CC3E0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8F49F7C01BB5C9DF00EF5B63 /* TenMinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -410,6 +411,7 @@
 			children = (
 				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
 				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
+				490827701C9124AB00CC3E0E /* PrefixHeader.pch */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -772,6 +774,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = TenMinDemo/classes/other/PrefixHeader.pch;
 				INFOPLIST_FILE = TenMinDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -787,6 +790,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = TenMinDemo/classes/other/PrefixHeader.pch;
 				INFOPLIST_FILE = TenMinDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

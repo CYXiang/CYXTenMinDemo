@@ -64,32 +64,32 @@
 /**
  * 这个方法的返回值，就决定了collectionView停止滚动时的偏移量
  */
-- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity
-{
-    // 计算出最终显示的矩形框
-    CGRect rect;
-    rect.origin.y = 0;
-    rect.origin.x = proposedContentOffset.x;
-    rect.size = self.collectionView.frame.size;
-    
-    // 获得super已经计算好的布局属性
-    NSArray *array = [super layoutAttributesForElementsInRect:rect];
-    
-    // 计算collectionView最中心点的x值
-    CGFloat centerX = proposedContentOffset.x + self.collectionView.frame.size.width * 0.5;
-    
-    // 存放最小的间距值
-    CGFloat minDelta = MAXFLOAT;
-    for (UICollectionViewLayoutAttributes *attrs in array) {
-        if (ABS(minDelta) > ABS(attrs.center.x - centerX)) {
-            minDelta = attrs.center.x - centerX;
-        }
-    }
-    
-    // 修改原有的偏移量
-    proposedContentOffset.x += minDelta;
-    return proposedContentOffset;
-}
+//- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity
+//{
+//    // 计算出最终显示的矩形框
+//    CGRect rect;
+//    rect.origin.y = 0;
+//    rect.origin.x = proposedContentOffset.x;
+//    rect.size = self.collectionView.frame.size;
+//    
+//    // 获得super已经计算好的布局属性
+//    NSArray *array = [super layoutAttributesForElementsInRect:rect];
+//    
+//    // 计算collectionView最中心点的x值
+//    CGFloat centerX = proposedContentOffset.x + self.collectionView.frame.size.width * 0.5;
+//    
+//    // 存放最小的间距值
+//    CGFloat minDelta = MAXFLOAT;
+//    for (UICollectionViewLayoutAttributes *attrs in array) {
+//        if (ABS(minDelta) > ABS(attrs.center.x - centerX)) {
+//            minDelta = attrs.center.x - centerX;
+//        }
+//    }
+//    
+//    // 修改原有的偏移量
+//    proposedContentOffset.x += minDelta;
+//    return proposedContentOffset;
+//}
 
 
 @end
