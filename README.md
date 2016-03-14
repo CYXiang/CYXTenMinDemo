@@ -12,15 +12,16 @@
 *UI进阶篇*
 - [十分钟学会CollectionView的几种使用技巧-来自iOS_CYX简书(即将发布)](http://www.jianshu.com/users/3f995dac0230/latest_articles)
 
-*Objective-C编程之道——iOS设计模式篇*
-
-*网络进阶篇*
+*网络/多线程篇*
 
 *第三方SDK接入心得*
 
-*架构篇*
-
 *底层原理篇*
+
+###架构师的路上
+*Objective-C编程之道——iOS设计模式篇*
+
+*架构篇*
 
 ####`“ ... to be continued”`
 
