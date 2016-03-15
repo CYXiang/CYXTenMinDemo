@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CYXWaterFlowLayout : UICollectionViewLayout
 
+@class CYXWaterFlowLayout;
+
+@protocol CYXWaterFlowLayoutDelegate <NSObject>
+@required
+- (CGFloat)waterflowLayout:(CYXWaterFlowLayout *)waterflowLayout heightForItemAtIndex:(NSUInteger)index itemWidth:(CGFloat)itemWidth;
+
+@optional
+- (CGFloat)columnCountInWaterflowLayout:(CYXWaterFlowLayout *)waterflowLayout;
+- (CGFloat)columnMarginInWaterflowLayout:(CYXWaterFlowLayout *)waterflowLayout;
+- (CGFloat)rowMarginInWaterflowLayout:(CYXWaterFlowLayout *)waterflowLayout;
+- (UIEdgeInsets)edgeInsetsInWaterflowLayout:(CYXWaterFlowLayout *)waterflowLayout;
+@end
+
+@interface CYXWaterFlowLayout : UICollectionViewLayout
+/** 代理 */
+@property (nonatomic, weak) id<CYXWaterFlowLayoutDelegate> delegate;
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494165271C97E5A200B1CE55 /* HGHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 494165261C97E5A200B1CE55 /* HGHttpRequest.m */; };
 		8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C51BB5C9DF00EF5B63 /* main.m */; };
 		8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */; };
 		8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */; };
@@ -55,6 +56,8 @@
 		0E9543E8849F85F3B1D0D784 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		490827701C9124AB00CC3E0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		494165251C97E5A200B1CE55 /* HGHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGHttpRequest.h; sourceTree = "<group>"; };
+		494165261C97E5A200B1CE55 /* HGHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGHttpRequest.m; sourceTree = "<group>"; };
 		8F49F7C01BB5C9DF00EF5B63 /* TenMinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -409,6 +412,8 @@
 		8F49F8171BB5CDB900EF5B63 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				494165251C97E5A200B1CE55 /* HGHttpRequest.h */,
+				494165261C97E5A200B1CE55 /* HGHttpRequest.m */,
 				8F49F8181BB5CDB900EF5B63 /* AppDelegate.h */,
 				8F49F8191BB5CDB900EF5B63 /* AppDelegate.m */,
 				490827701C9124AB00CC3E0E /* PrefixHeader.pch */,
@@ -633,6 +638,7 @@
 				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
 				8F9F28481C8F3BED00A6BA83 /* CYXPhotoViewLayout.m in Sources */,
 				8F49F81D1BB5CDB900EF5B63 /* CYXFourViewController.m in Sources */,
+				494165271C97E5A200B1CE55 /* HGHttpRequest.m in Sources */,
 				8F9F28391C8F3BCF00A6BA83 /* CYXNewfeatureCell.m in Sources */,
 				8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */,
 				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
