@@ -10,7 +10,7 @@
 - [十分钟搭建主流框架_下拉/上拉刷新数据-来自iOS_CYX简书](http://www.jianshu.com/p/06458537dce4)
 
 *UI进阶篇*
-- [十分钟学会CollectionView的几种使用技巧-来自iOS_CYX简书(即将发布)](http://www.jianshu.com/users/3f995dac0230/latest_articles)
+- [CollectionView的几种使用技巧-来自iOS_CYX简书](http://www.jianshu.com/p/0d1e2e067f6c)
 
 *网络/多线程篇*
 
