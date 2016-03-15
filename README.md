@@ -3,6 +3,7 @@
 ###十分钟搭建App框架系列（OC）
 
 ##博文
+###从小白到码农的路上
 *基础框架篇*
 - [十分钟搭建App主流框架-来自iOS_CYX简书](http://www.jianshu.com/p/fc71652f2f89)
 - [五分钟搭建App设置页面-来自iOS_CYX简书](http://www.jianshu.com/p/4b8e6ace5ff1)
@@ -22,6 +23,9 @@
 *Objective-C编程之道——iOS设计模式篇*
 
 *架构篇*
+
+###产品经理入门之路
+
 
 ####`“ ... to be continued”`
 
