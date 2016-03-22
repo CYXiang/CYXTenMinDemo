@@ -7,6 +7,7 @@
 //  分类控制器
 
 #import "CYXThreeViewController.h"
+#import <objc/runtime.h>
 
 @interface CYXThreeViewController ()
 
@@ -19,6 +20,21 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor yellowColor];
+    
+    // 获得所有的成员变量
+    unsigned int outCount = 0;
+    Ivar *ivarList = class_copyIvarList([UIPageControl class], &outCount);
+    
+    // 遍历所有的成员变量
+    for (int i = 0; i < outCount; i++) {
+        // 获得第i个成员变量
+        Ivar ivar = ivarList[i];
+        
+        // 获得成员变量的名称和类型
+        NSLog(@"%@ -> %s = %s", [UIPageControl class], ivar_getName(ivar), ivar_getTypeEncoding(ivar));
+    }
+    // 释放资源
+    free(ivarList);
 
 }
 
