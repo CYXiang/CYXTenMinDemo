@@ -11,6 +11,8 @@
 - [十分钟搭建主流框架_下拉/上拉刷新数据-来自iOS_CYX简书](http://www.jianshu.com/p/06458537dce4)
 
 *UI进阶篇*
+- [Core Animation实现思路全解<附示例Demo>(OC)-来自iOS_CYX简书](http://www.jianshu.com/p/bea562b63850)
+- [iOS笔记-自定义控件(OC)-来自iOS_CYX简书](http://www.jianshu.com/p/f23862eb7b8a)
 - [CollectionView的几种使用技巧-来自iOS_CYX简书](http://www.jianshu.com/p/0d1e2e067f6c)
 
 *网络/多线程篇*
