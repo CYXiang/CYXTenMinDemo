@@ -14,6 +14,7 @@
 - [CollectionView的几种使用技巧-来自iOS_CYX简书](http://www.jianshu.com/p/0d1e2e067f6c)
 
 *网络/多线程篇*
+- [iOS笔记-多线程相关(pthread 、NSThread 、GCD、NSOperation)-来自iOS_CYX简书](http://www.jianshu.com/p/ccd1aa9bae00)
 
 *第三方SDK接入心得*
 
