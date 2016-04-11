@@ -14,14 +14,20 @@
 - [Core Animation实现思路全解<附示例Demo>(OC)-来自iOS_CYX简书](http://www.jianshu.com/p/bea562b63850)
 - [iOS笔记-自定义控件(OC)-来自iOS_CYX简书](http://www.jianshu.com/p/f23862eb7b8a)
 - [CollectionView的几种使用技巧-来自iOS_CYX简书](http://www.jianshu.com/p/0d1e2e067f6c)
+- [iOS笔记-UIImagePickerController使用小结巧-来自iOS_CYX简书](http://www.jianshu.com/p/167bddc37229)
+- [iOS笔记-导航控制器(Nav)的10条经验-来自iOS_CYX简书](http://www.jianshu.com/p/9212db80df46)
 
 *网络/多线程篇*
 - [iOS笔记-多线程相关(pthread 、NSThread 、GCD、NSOperation)-来自iOS_CYX简书](http://www.jianshu.com/p/ccd1aa9bae00)
 
 *第三方SDK接入心得*
 
+*数据持久化篇*
+- [iOS笔记-数据存储科普篇（上）-来自iOS_CYX简书](http://www.jianshu.com/p/cd5846efd92e)
+
 *底层原理篇*
 - [iOS小结-KVC使用实践以及实现原理-来自iOS_CYX简书](http://www.jianshu.com/p/fbd1e7c93fd0)
+- [iOS笔记-一些零散的知识点(上)-来自iOS_CYX简书](http://www.jianshu.com/p/69807578af46)
 
 ###从菜鸟到架构师的路上
 *Objective-C编程之道——iOS设计模式篇*
