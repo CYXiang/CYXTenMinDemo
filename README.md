@@ -29,6 +29,9 @@
 - [iOS小结-KVC使用实践以及实现原理-来自iOS_CYX简书](http://www.jianshu.com/p/fbd1e7c93fd0)
 - [iOS笔记-一些零散的知识点(上)-来自iOS_CYX简书](http://www.jianshu.com/p/69807578af46)
 
+*面试相关*
+- [iOS笔试-上机题（附个人见解）- 来自iOS_CYX简书](http://www.jianshu.com/p/b5b5a78e46ba)
+
 ###从菜鸟到架构师的路上
 *Objective-C编程之道——iOS设计模式篇*
 
