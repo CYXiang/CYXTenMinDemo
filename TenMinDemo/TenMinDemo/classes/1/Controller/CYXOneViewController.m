@@ -54,8 +54,8 @@ static NSString * const CYXCellID = @"cell";
 
 - (void)setupTable{
     self.tableView.rowHeight = 90;
-    
     // 注册重用Cell
+    
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXCell class]) bundle:nil] forCellReuseIdentifier:CYXCellID];
     
     self.view.backgroundColor = [UIColor whiteColor];
@@ -81,7 +81,7 @@ static NSString * const CYXCellID = @"cell";
     params[@"menu"] = @"西红柿";
     params[@"pn"] = @(self.pn);
     params[@"rn"] = @"10";
-    params[@"key"] = @"2ba215a3f83b4b898d0f6fdca4e16c7c";
+    params[@"key"] = @"fcfdb87c50c1485e9e7fa9f839c4b1a8";
     
     // 在AFN的block内使用，防止造成循环引用
     __weak typeof(self) weakSelf = self;
@@ -92,14 +92,14 @@ static NSString * const CYXCellID = @"cell";
         NSLog(@"请求成功");
         
         // 利用MJExtension框架进行字典转模型
-        weakSelf.menus = [CYXMenu objectArrayWithKeyValuesArray:responseObject[@"result"]];
+        weakSelf.menus = [CYXMenu  mj_objectArrayWithKeyValuesArray:responseObject[@"result"]];
         weakSelf.pn ++;
         // 刷新数据（若不刷新数据会显示不出）
         [weakSelf.tableView reloadData];
-        [weakSelf.tableView.header endRefreshing];
+        [weakSelf.tableView.mj_header endRefreshing];
     } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
         NSLog(@"请求失败 原因：%@",error);
-        [weakSelf.tableView.header endRefreshing];
+        [weakSelf.tableView.mj_header endRefreshing];
     }];
     
 }
@@ -115,7 +115,7 @@ static NSString * const CYXCellID = @"cell";
     params[@"menu"] = @"西红柿";
     params[@"pn"] = @(self.pn);
     params[@"rn"] = @"10";
-    params[@"key"] = @"2ba215a3f83b4b898d0f6fdca4e16c7c";
+    params[@"key"] = @"fcfdb87c50c1485e9e7fa9f839c4b1a8";
     
     // 在AFN的block内使用，防止造成循环引用
     __weak typeof(self) weakSelf = self;
@@ -127,17 +127,17 @@ static NSString * const CYXCellID = @"cell";
         
         
         // 利用MJExtension框架进行字典转模型
-        NSArray *array = [CYXMenu objectArrayWithKeyValuesArray:responseObject[@"result"]];
+        NSArray *array = [CYXMenu mj_objectArrayWithKeyValuesArray:responseObject[@"result"]];
         [weakSelf.menus addObjectsFromArray:array];
         
         weakSelf.pn ++;
         
         // 刷新数据（若不刷新数据会显示不出）
         [weakSelf.tableView reloadData];
-        [weakSelf.tableView.footer endRefreshing];
+        [weakSelf.tableView.mj_footer endRefreshing];
     } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
         NSLog(@"请求失败 原因：%@",error);
-        [weakSelf.tableView.footer endRefreshing];
+        [weakSelf.tableView.mj_footer endRefreshing];
     }];
     
 

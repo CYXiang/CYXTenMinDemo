@@ -14,7 +14,7 @@
 #import "UIScrollView+MJRefresh.h"
 
 /** 刷新控件的状态 */
-typedef enum {
+typedef NS_ENUM(NSInteger, MJRefreshState) {
     /** 普通闲置状态 */
     MJRefreshStateIdle = 1,
     /** 松开就可以进行刷新的状态 */
@@ -25,7 +25,7 @@ typedef enum {
     MJRefreshStateWillRefresh,
     /** 所有数据加载完毕，没有更多的数据了 */
     MJRefreshStateNoMoreData
-} MJRefreshState;
+};
 
 /** 进入刷新状态的回调 */
 typedef void (^MJRefreshComponentRefreshingBlock)();
@@ -68,15 +68,15 @@ typedef void (^MJRefreshComponentRefreshingBlock)();
 
 #pragma mark - 交给子类们去实现
 /** 初始化 */
-- (void)prepare;
+- (void)prepare NS_REQUIRES_SUPER;
 /** 摆放子控件frame */
-- (void)placeSubviews;
+- (void)placeSubviews NS_REQUIRES_SUPER;
 /** 当scrollView的contentOffset发生改变的时候调用 */
-- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change;
+- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change NS_REQUIRES_SUPER;
 /** 当scrollView的contentSize发生改变的时候调用 */
-- (void)scrollViewContentSizeDidChange:(NSDictionary *)change;
+- (void)scrollViewContentSizeDidChange:(NSDictionary *)change NS_REQUIRES_SUPER;
 /** 当scrollView的拖拽状态发生改变的时候调用 */
-- (void)scrollViewPanStateDidChange:(NSDictionary *)change;
+- (void)scrollViewPanStateDidChange:(NSDictionary *)change NS_REQUIRES_SUPER;
 
 
 #pragma mark - 其他
