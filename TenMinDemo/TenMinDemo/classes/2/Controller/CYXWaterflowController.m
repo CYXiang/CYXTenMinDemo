@@ -46,11 +46,11 @@ static NSString * const CYXShopId = @"shop";
 
 - (void)setupRefresh
 {
-    self.collectionView.header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(sendRequest)];
-    [self.collectionView.header beginRefreshing];
+    self.collectionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(sendRequest)];
+    [self.collectionView.mj_header beginRefreshing];
     
-    self.collectionView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMore)];
-    self.collectionView.footer.hidden = YES;
+    self.collectionView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMore)];
+    self.collectionView.mj_footer.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,7 +63,7 @@ static NSString * const CYXShopId = @"shop";
 {
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        [self.collectionView.header endRefreshing];
+        [self.collectionView.mj_header endRefreshing];
     });
     
     
@@ -71,7 +71,7 @@ static NSString * const CYXShopId = @"shop";
 - (void)loadMore{
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
-        [self.collectionView.footer endRefreshing];
+        [self.collectionView.mj_footer endRefreshing];
     });
 }
 
