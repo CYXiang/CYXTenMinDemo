@@ -36,6 +36,7 @@
 *Objective-C编程之道——iOS设计模式篇*
 
 *架构篇*
+- [iOS重构-轻量级的网络请求封装实践 - 来自iOS_CYX简书](http://www.jianshu.com/p/d4ff9fd0dcba)
 
 ###产品经理入门之路
 
