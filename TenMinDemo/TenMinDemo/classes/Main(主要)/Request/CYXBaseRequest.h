@@ -59,7 +59,7 @@
  *  @param failure      请求失败后的回调（请将请求失败后想做的事情写到这个block中）
  *  @param tokenInvalid token过期后的回调（请将token后想做的事情写到这个block中）
  */
-+ (void)postResultWithUrl:(NSString *)url param:(id)param
+- (void)postResultWithUrl:(NSString *)url param:(id)param
               resultClass:(Class)resultClass
                   success:(void (^)(id result))success
                      warn:(void (^)(NSString *warnMsg))warn

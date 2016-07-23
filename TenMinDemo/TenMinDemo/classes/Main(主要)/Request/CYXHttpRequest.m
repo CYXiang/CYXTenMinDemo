@@ -9,10 +9,33 @@
 #import "CYXHttpRequest.h"
 #import <AFNetworking.h>
 
+@interface CYXHttpRequest ()
+
+@property (nonatomic,strong) AFHTTPSessionManager * manager;
+
+@end
+
 @implementation CYXHttpRequest
+
+/* manager 懒加载 */
+- (AFHTTPSessionManager *)manager
+{
+    if (!_manager) {
+        _manager = [AFHTTPSessionManager manager];
+    }
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        _manager = [AFHTTPSessionManager manager];
+//
+//    });
+    return _manager;
+
+}
+
 
 + (void)get:(NSString *)url params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure
 {
+    
     // 1.获得请求管理者
     AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
     // 2.申明返回的结果是text/html类型
@@ -32,10 +55,10 @@
 
 }
 
-+ (void)post:(NSString *)url params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure
+- (void)post:(NSString *)url params:(NSDictionary *)params success:(void (^)(id))success failure:(void (^)(NSError *))failure
 {
     // 1.获得请求管理者
-    AFHTTPSessionManager *mgr = [AFHTTPSessionManager manager];
+    AFHTTPSessionManager *mgr = self.manager;
     // 2.申明返回的结果是text/html类型
     mgr.responseSerializer = [AFHTTPResponseSerializer serializer];
     // 3.设置超时时间为10s

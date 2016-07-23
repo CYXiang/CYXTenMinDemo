@@ -82,7 +82,7 @@ static NSString * const CYXCellID = @"cell";
     params[@"rn"] = @"10";
     params[@"key"] = @"fcfdb87c50c1485e9e7fa9f839c4b1a8";
     
-    [CYXBaseRequest postResultWithUrl:CYXRequestURL param:params resultClass:[CYXMenu class] success:^(id result) {
+    [[[CYXBaseRequest alloc]init] postResultWithUrl:CYXRequestURL param:params resultClass:[CYXMenu class] success:^(id result) {
         CYXLog(@"请求成功，返回数据 : %@",result);
         self.menus = result;
         self.pn ++;
@@ -132,7 +132,7 @@ static NSString * const CYXCellID = @"cell";
     params[@"rn"] = @"10";
     params[@"key"] = @"fcfdb87c50c1485e9e7fa9f839c4b1a8";
     
-    [CYXBaseRequest postResultWithUrl:CYXRequestURL param:params resultClass:[CYXMenu class] success:^(id result) {
+    [[[CYXBaseRequest alloc]init] postResultWithUrl:CYXRequestURL param:params resultClass:[CYXMenu class] success:^(id result) {
         CYXLog(@"请求成功，返回数据 : %@",result);
         
         [self.menus addObjectsFromArray:result];
