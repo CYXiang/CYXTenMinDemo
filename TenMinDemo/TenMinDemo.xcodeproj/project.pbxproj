@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11568671B73CF02217E49F8A /* libPods-TenMinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */; };
 		4929626F1CFD2348000FAA84 /* CYXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929626E1CFD2348000FAA84 /* CYXHttpRequest.m */; };
 		492962721CFD235D000FAA84 /* CYXBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 492962711CFD235D000FAA84 /* CYXBaseRequest.m */; };
+		50027BE79C9A271AFCA221D2 /* libPods-TenMinDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8776E17940DABA063FF3C3D1 /* libPods-TenMinDemoTests.a */; };
 		8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C51BB5C9DF00EF5B63 /* main.m */; };
 		8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */; };
 		8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */; };
@@ -40,7 +42,6 @@
 		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; };
 		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; };
 		8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33DA1BC9401D0085F520 /* CYXMenu.m */; };
-		92263B5DA4766C17E2D14A3B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9543E8849F85F3B1D0D784 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E9543E8849F85F3B1D0D784 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		490827701C9124AB00CC3E0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4929626D1CFD2348000FAA84 /* CYXHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXHttpRequest.h; sourceTree = "<group>"; };
 		4929626E1CFD2348000FAA84 /* CYXHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXHttpRequest.m; sourceTree = "<group>"; };
 		492962701CFD235D000FAA84 /* CYXBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXBaseRequest.h; sourceTree = "<group>"; };
 		492962711CFD235D000FAA84 /* CYXBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXBaseRequest.m; sourceTree = "<group>"; };
+		4D36DC960AE13C4CF3E9ECF3 /* Pods-TenMinDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenMinDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenMinDemoTests/Pods-TenMinDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TenMinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8776E17940DABA063FF3C3D1 /* libPods-TenMinDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TenMinDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C01BB5C9DF00EF5B63 /* TenMinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,7 +121,9 @@
 		8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXCell.xib; sourceTree = "<group>"; };
 		8FFA33D91BC9401D0085F520 /* CYXMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMenu.h; sourceTree = "<group>"; };
 		8FFA33DA1BC9401D0085F520 /* CYXMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMenu.m; sourceTree = "<group>"; };
-		9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A485821D5CEA131750AD6951 /* Pods-TenMinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenMinDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenMinDemo/Pods-TenMinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A63B1B263B92CFD82684D4F7 /* Pods-TenMinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenMinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenMinDemo/Pods-TenMinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F386E7F90EB464F6E3E38ACA /* Pods-TenMinDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenMinDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TenMinDemoTests/Pods-TenMinDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92263B5DA4766C17E2D14A3B /* libPods.a in Frameworks */,
+				11568671B73CF02217E49F8A /* libPods-TenMinDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,29 +139,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50027BE79C9A271AFCA221D2 /* libPods-TenMinDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		084A460942A14A96B363367F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0E9543E8849F85F3B1D0D784 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		27BB0BD28AA2319464F24C5A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */,
-				1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		4929626C1CFD22B5000FAA84 /* Request */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,8 +170,8 @@
 				8F49F7C21BB5C9DF00EF5B63 /* TenMinDemo */,
 				8F49F7DC1BB5C9DF00EF5B63 /* TenMinDemoTests */,
 				8F49F7C11BB5C9DF00EF5B63 /* Products */,
-				27BB0BD28AA2319464F24C5A /* Pods */,
-				084A460942A14A96B363367F /* Frameworks */,
+				A2FB110B7438D5C1914BD261 /* Pods */,
+				9AC84933D0BDF8D42A08CDEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -501,6 +489,26 @@
 			name = "瀑布流布局";
 			sourceTree = "<group>";
 		};
+		9AC84933D0BDF8D42A08CDEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */,
+				8776E17940DABA063FF3C3D1 /* libPods-TenMinDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2FB110B7438D5C1914BD261 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A485821D5CEA131750AD6951 /* Pods-TenMinDemo.debug.xcconfig */,
+				A63B1B263B92CFD82684D4F7 /* Pods-TenMinDemo.release.xcconfig */,
+				4D36DC960AE13C4CF3E9ECF3 /* Pods-TenMinDemoTests.debug.xcconfig */,
+				F386E7F90EB464F6E3E38ACA /* Pods-TenMinDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,11 +516,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F49F7E31BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "TenMinDemo" */;
 			buildPhases = (
-				336D9C4FB45AFC72300D9999 /* Check Pods Manifest.lock */,
+				13DCF60E60DA89C0171CC797 /* [CP] Check Pods Manifest.lock */,
 				8F49F7BC1BB5C9DF00EF5B63 /* Sources */,
 				8F49F7BD1BB5C9DF00EF5B63 /* Frameworks */,
 				8F49F7BE1BB5C9DF00EF5B63 /* Resources */,
-				8A4C3B9CB9DD71CB845381C2 /* Copy Pods Resources */,
+				2A15DB335767F94A42FA7864 /* [CP] Embed Pods Frameworks */,
+				9DC3DD29D966126C94A8BC2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,9 +536,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F49F7E61BB5C9DF00EF5B63 /* Build configuration list for PBXNativeTarget "TenMinDemoTests" */;
 			buildPhases = (
+				5CB9E83EEB838FEBDB75A53F /* [CP] Check Pods Manifest.lock */,
 				8F49F7D51BB5C9DF00EF5B63 /* Sources */,
 				8F49F7D61BB5C9DF00EF5B63 /* Frameworks */,
 				8F49F7D71BB5C9DF00EF5B63 /* Resources */,
+				D736A5FB3811F100A5F1C8CF /* [CP] Embed Pods Frameworks */,
+				589C759BD7691B2CFE2CEEB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -604,34 +616,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		336D9C4FB45AFC72300D9999 /* Check Pods Manifest.lock */ = {
+		13DCF60E60DA89C0171CC797 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8A4C3B9CB9DD71CB845381C2 /* Copy Pods Resources */ = {
+		2A15DB335767F94A42FA7864 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenMinDemo/Pods-TenMinDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589C759BD7691B2CFE2CEEB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenMinDemoTests/Pods-TenMinDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB9E83EEB838FEBDB75A53F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC3DD29D966126C94A8BC2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenMinDemo/Pods-TenMinDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D736A5FB3811F100A5F1C8CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TenMinDemoTests/Pods-TenMinDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -783,7 +855,7 @@
 		};
 		8F49F7E41BB5C9DF00EF5B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D8EE4EBC7D759FB05163EAE /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A485821D5CEA131750AD6951 /* Pods-TenMinDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -800,7 +872,7 @@
 		};
 		8F49F7E51BB5C9DF00EF5B63 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C9E8C71C7994594B16CC328 /* Pods.release.xcconfig */;
+			baseConfigurationReference = A63B1B263B92CFD82684D4F7 /* Pods-TenMinDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -817,6 +889,7 @@
 		};
 		8F49F7E71BB5C9DF00EF5B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D36DC960AE13C4CF3E9ECF3 /* Pods-TenMinDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -837,6 +910,7 @@
 		};
 		8F49F7E81BB5C9DF00EF5B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F386E7F90EB464F6E3E38ACA /* Pods-TenMinDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
