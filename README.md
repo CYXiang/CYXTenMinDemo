@@ -1,9 +1,9 @@
 # CYXTenMinDemo
-#`进来的朋友帮忙点个⭐️Star哈，谢谢，持续更新...`
-###十分钟搭建App框架系列（OC）
+# `进来的朋友帮忙点个⭐️Star哈，谢谢，持续更新...`
+### 十分钟搭建App框架系列（OC）
 
-##博文
-###从小白到码农的路上
+## 博文
+### 从小白到码农的路上
 *基础框架篇*
 - [十分钟搭建App主流框架-来自iOS_CYX简书](http://www.jianshu.com/p/fc71652f2f89)
 - [五分钟搭建App设置页面-来自iOS_CYX简书](http://www.jianshu.com/p/4b8e6ace5ff1)
@@ -32,19 +32,19 @@
 *面试相关*
 - [iOS笔试-上机题（附个人见解）- 来自iOS_CYX简书](http://www.jianshu.com/p/b5b5a78e46ba)
 
-###从菜鸟到架构师的路上
+### 从菜鸟到架构师的路上
 *Objective-C编程之道——iOS设计模式篇*
 
 *架构篇*
 - [iOS重构-轻量级的网络请求封装实践 - 来自iOS_CYX简书](http://www.jianshu.com/p/d4ff9fd0dcba)
 
-###产品经理入门之路
+### 产品经理入门之路
 
 
-####`“ ... to be continued”`
+#### `“ ... to be continued”`
 
 
-##注
+## 注
 
 - 这个Demo是为iOS入门级的同学们准备的，由于本人也是过来人，深知入门时走过的弯路，所以把一些自学的经验与商业级项目的初级开发规范分享给大家，希望对大家的学习有所帮助。
 - 感兴趣的朋友可随时关注[我的简书](http://www.jianshu.com/users/3f995dac0230/latest_articles)
