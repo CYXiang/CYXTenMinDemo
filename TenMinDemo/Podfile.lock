@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - ReactiveObjC (2.1.2)
@@ -24,6 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - KIF (~> 3.5.1)
   - MJExtension
   - MJRefresh
   - ReactiveObjC
@@ -32,12 +36,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: ca4b4d16fa29ff140a9ab58e9b77ea7eafe36473
+PODFILE CHECKSUM: 48cd063ffed8f5f896157c8cbc07681ded5814ab
 
 COCOAPODS: 1.2.0

@@ -13,10 +13,9 @@ target 'TenMinDemo' do
     pod 'SVProgressHUD'
     pod 'ReactiveObjC'
     
-    target 'TenMinDemoTests' do
-        inherit! :search_paths
-        # Pods for testing
-    end
+end
 
-    
+target 'TenMinDemoTests' do
+    use_frameworks!
+    pod 'KIF', '~> 3.5.1'
 end

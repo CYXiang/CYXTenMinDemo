@@ -10,7 +10,6 @@
 		11568671B73CF02217E49F8A /* libPods-TenMinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */; };
 		4929626F1CFD2348000FAA84 /* CYXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929626E1CFD2348000FAA84 /* CYXHttpRequest.m */; };
 		492962721CFD235D000FAA84 /* CYXBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 492962711CFD235D000FAA84 /* CYXBaseRequest.m */; };
-		50027BE79C9A271AFCA221D2 /* libPods-TenMinDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8776E17940DABA063FF3C3D1 /* libPods-TenMinDemoTests.a */; };
 		8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C51BB5C9DF00EF5B63 /* main.m */; };
 		8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D01BB5C9DF00EF5B63 /* Images.xcassets */; };
 		8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F49F7D21BB5C9DF00EF5B63 /* LaunchScreen.xib */; };
@@ -42,6 +41,7 @@
 		8FAD0AC71BC8337B00FD35AD /* CYXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC51BC8337B00FD35AD /* CYXCell.m */; };
 		8FAD0AC81BC8337B00FD35AD /* CYXCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD0AC61BC8337B00FD35AD /* CYXCell.xib */; };
 		8FFA33DB1BC9401D0085F520 /* CYXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33DA1BC9401D0085F520 /* CYXMenu.m */; };
+		D1B14E88AA27A080F983453B /* Pods_TenMinDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18590B99C9F540F7A0B05776 /* Pods_TenMinDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18590B99C9F540F7A0B05776 /* Pods_TenMinDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenMinDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490827701C9124AB00CC3E0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4929626D1CFD2348000FAA84 /* CYXHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXHttpRequest.h; sourceTree = "<group>"; };
 		4929626E1CFD2348000FAA84 /* CYXHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXHttpRequest.m; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		492962711CFD235D000FAA84 /* CYXBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXBaseRequest.m; sourceTree = "<group>"; };
 		4D36DC960AE13C4CF3E9ECF3 /* Pods-TenMinDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TenMinDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TenMinDemoTests/Pods-TenMinDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TenMinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8776E17940DABA063FF3C3D1 /* libPods-TenMinDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TenMinDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C01BB5C9DF00EF5B63 /* TenMinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenMinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F49F7C41BB5C9DF00EF5B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F49F7C51BB5C9DF00EF5B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50027BE79C9A271AFCA221D2 /* libPods-TenMinDemoTests.a in Frameworks */,
+				D1B14E88AA27A080F983453B /* Pods_TenMinDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +493,7 @@
 			isa = PBXGroup;
 			children = (
 				52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */,
-				8776E17940DABA063FF3C3D1 /* libPods-TenMinDemoTests.a */,
+				18590B99C9F540F7A0B05776 /* Pods_TenMinDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
