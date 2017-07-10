@@ -41,7 +41,10 @@ static NSString * const CYXShopId = @"shop";
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:CYXShopId];
     
     [self setupRefresh];
-
+    
+    //
+    [self.collectionView setAccessibilityIdentifier:@"collectionView"];
+    [self.collectionView setIsAccessibilityElement:YES];
 }
 
 - (void)setupRefresh

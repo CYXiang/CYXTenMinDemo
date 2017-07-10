@@ -36,7 +36,7 @@
     
     // 2.添加第2个控制器
     CYXTwoViewController *twoVC = [[CYXTwoViewController alloc]init];
-    [self setUpOneChildViewController:twoVC image:[UIImage imageNamed:@"js"] title:@"技术"];
+    [self setUpOneChildViewController:twoVC image:[UIImage imageNamed:@"js"] title:@"CYXDemo"];
     
     // 3.添加第3个控制器
     CYXThreeViewController *threeVC = [[CYXThreeViewController alloc]init];
