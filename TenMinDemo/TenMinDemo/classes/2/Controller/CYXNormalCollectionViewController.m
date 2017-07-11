@@ -55,7 +55,8 @@ static NSString * const reuseIdentifier = @"Cell";
 //    [self.collectionView registerClass:[CYXNormalCell class] forCellWithReuseIdentifier:reuseIdentifier];
     // 通过xib注册
     [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXNormalCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
-    
+    [self.collectionView setAccessibilityIdentifier:@"collectionView"];
+    [self.collectionView setIsAccessibilityElement:YES];
 }
 
 - (void)didReceiveMemoryWarning {

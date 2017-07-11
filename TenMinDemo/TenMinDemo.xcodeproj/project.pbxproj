@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		11568671B73CF02217E49F8A /* libPods-TenMinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52550DA80C2FE6565999E580 /* libPods-TenMinDemo.a */; };
+		310C201C1F1519AF006B4B59 /* CYXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C201B1F1519AF006B4B59 /* CYXTableViewController.m */; };
+		318B52D51F151A7F00E80CC9 /* CYXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318B52D41F151A7F00E80CC9 /* CYXDetailViewController.m */; };
+		31ACB8DA1F150F4600999E15 /* CYXThreeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31ACB8D91F150F4600999E15 /* CYXThreeViewController.storyboard */; };
 		4929626F1CFD2348000FAA84 /* CYXHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929626E1CFD2348000FAA84 /* CYXHttpRequest.m */; };
 		492962721CFD235D000FAA84 /* CYXBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 492962711CFD235D000FAA84 /* CYXBaseRequest.m */; };
 		8F49F7C61BB5C9DF00EF5B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F7C51BB5C9DF00EF5B63 /* main.m */; };
@@ -56,6 +59,11 @@
 
 /* Begin PBXFileReference section */
 		18590B99C9F540F7A0B05776 /* Pods_TenMinDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TenMinDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310C201A1F1519AF006B4B59 /* CYXTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYXTableViewController.h; sourceTree = "<group>"; };
+		310C201B1F1519AF006B4B59 /* CYXTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXTableViewController.m; sourceTree = "<group>"; };
+		318B52D31F151A7F00E80CC9 /* CYXDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYXDetailViewController.h; sourceTree = "<group>"; };
+		318B52D41F151A7F00E80CC9 /* CYXDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXDetailViewController.m; sourceTree = "<group>"; };
+		31ACB8D91F150F4600999E15 /* CYXThreeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CYXThreeViewController.storyboard; sourceTree = "<group>"; };
 		490827701C9124AB00CC3E0E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4929626D1CFD2348000FAA84 /* CYXHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXHttpRequest.h; sourceTree = "<group>"; };
 		4929626E1CFD2348000FAA84 /* CYXHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXHttpRequest.m; sourceTree = "<group>"; };
@@ -324,6 +332,11 @@
 			children = (
 				8F49F7F81BB5CDB900EF5B63 /* CYXThreeViewController.h */,
 				8F49F7F91BB5CDB900EF5B63 /* CYXThreeViewController.m */,
+				31ACB8D91F150F4600999E15 /* CYXThreeViewController.storyboard */,
+				310C201A1F1519AF006B4B59 /* CYXTableViewController.h */,
+				310C201B1F1519AF006B4B59 /* CYXTableViewController.m */,
+				318B52D31F151A7F00E80CC9 /* CYXDetailViewController.h */,
+				318B52D41F151A7F00E80CC9 /* CYXDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -603,6 +616,7 @@
 				8F49F81E1BB5CDB900EF5B63 /* CYXFourViewController.storyboard in Resources */,
 				8F49F7D41BB5C9DF00EF5B63 /* LaunchScreen.xib in Resources */,
 				8F49F7D11BB5C9DF00EF5B63 /* Images.xcassets in Resources */,
+				31ACB8DA1F150F4600999E15 /* CYXThreeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,12 +730,14 @@
 				8F49F8241BB5CDB900EF5B63 /* CYXNavigationController.m in Sources */,
 				8F9F28481C8F3BED00A6BA83 /* CYXPhotoViewLayout.m in Sources */,
 				8F49F81D1BB5CDB900EF5B63 /* CYXFourViewController.m in Sources */,
+				310C201C1F1519AF006B4B59 /* CYXTableViewController.m in Sources */,
 				8F9F28391C8F3BCF00A6BA83 /* CYXNewfeatureCell.m in Sources */,
 				8F49F8201BB5CDB900EF5B63 /* CYXGroupItem.m in Sources */,
 				8F49F8251BB5CDB900EF5B63 /* CYXTabBarController.m in Sources */,
 				8F49F81B1BB5CDB900EF5B63 /* CYXTwoViewController.m in Sources */,
 				8F9F283F1C8F3BDB00A6BA83 /* CYXWaterflowController.m in Sources */,
 				4929626F1CFD2348000FAA84 /* CYXHttpRequest.m in Sources */,
+				318B52D51F151A7F00E80CC9 /* CYXDetailViewController.m in Sources */,
 				8F49F8271BB5CDB900EF5B63 /* AppDelegate.m in Sources */,
 				8F9F28301C8F3BBE00A6BA83 /* CYXNormalCollectionViewController.m in Sources */,
 				8F9F28401C8F3BDB00A6BA83 /* CYXWaterFlowLayout.m in Sources */,
