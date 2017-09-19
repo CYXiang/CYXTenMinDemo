@@ -1,5 +1,5 @@
 # CYXTenMinDemo
-
+#### [最新写的一个简单易用的下载管理器CYXDownLoader,欢迎学习使用](https://github.com/CYXiang/CYXDownLoader)
 ### 十分钟搭建App框架系列（OC）
 
 ## 博文
