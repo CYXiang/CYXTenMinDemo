@@ -1,7 +1,7 @@
 # CYXTenMinDemo 
-- KIF集成自动化测试Demo
-  - 打开.xcworkspace
-  - command + U 即可跑起测试用例
+#### KIF集成自动化测试Demo
+ - 打开.xcworkspace
+ - command + U 即可跑起测试用例
 ### [👉最新写的一个简单易用的下载管理器CYXDownLoader,欢迎学习使用👈](https://github.com/CYXiang/CYXDownLoader)
 ### 十分钟搭建App框架系列（OC）
 
